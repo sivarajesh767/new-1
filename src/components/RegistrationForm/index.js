@@ -26,7 +26,7 @@ class RegistrationForm extends Component {
     const className = showLastNameError ? 'show-last' : 'input-firstName'
     return (
       <div>
-        <label html="lastName" className="lastName-label ">
+        <label htmlFor="lastName" className="lastName-label ">
           LAST NAME
         </label>
         <input
