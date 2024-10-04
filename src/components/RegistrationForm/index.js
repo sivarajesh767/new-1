@@ -23,7 +23,7 @@ class RegistrationForm extends Component {
 
   renderLastNameInput = () => {
     const {lastNameInput, showLastNameError} = this.state
-    const className = showLastNameError ? 'show-last' : 'input-firstName'
+    const className = showLastNameError ? 'input-lastName' : 'input-lastName'
     return (
       <div>
         <label htmlFor="lastName" className="lastName-label ">
@@ -54,7 +54,7 @@ class RegistrationForm extends Component {
 
   renderFirstNameInput = () => {
     const {firstNameInput, showFirstNameError} = this.state
-    const className = showFirstNameError ? 'first-name' : 'input-firstName'
+    const className = showFirstNameError ? 'input-firstName' : 'input-firstName'
 
     return (
       <div>
